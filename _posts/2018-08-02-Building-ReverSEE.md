@@ -75,3 +75,12 @@ Flask was used to build a RESTful API to serve the model. Helper classes in `app
 
 POST `/api/matchcnn` accepted the image data sent by a client and sent back a JSON list of top 10 most probable items, which were paths of static files being served by Flask (atleast for the development server).
 
+# The Frontend
+
+Thanks to [Kautuk Kundan](https://github.com/kautukkundan) for contributing the frontend to the project. It uses the HTML5 Fetch API for requesting the API and updates the DOM.
+
+![ReverSEE](https://i.imgur.com/2IKKQpz.jpg)
+
+# The End
+
+I apologize for any incorrect statements, inaccuracies and all grammatical errors. Criticism Appreciated. 
