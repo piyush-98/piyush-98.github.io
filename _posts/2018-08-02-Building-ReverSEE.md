@@ -49,4 +49,11 @@ Research a.k.a using google, led to different articles and papers,
     
 Teaching me about Siamese Networks, using two identical convolutional neural networks to generate a parameter which could be used to infer similarity between two images. With my limited understanding of CNN's and Siamese Networks, I will refrain from any technincal comments regarding how the process is done but it is covered in [https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) for those interested.
 
-The base code for the model was harvested from [https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch), It uses two images and a truth label to train the model, the `SiameseNetworkDataset` class was refactored to randomly, either use the same or get a new image from the tshirt databsae, and a truth label was generated alongside. The `SiameseNetwork` class was tweaked to handle our cropped 130x150 images and the number of feature maps generatead tweaked for my laptop's feeble GTX1050Ti to handle.
+The base code for the model was harvested from [https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch), It uses two images and a truth label to train the model, the `SiameseNetworkDataset` class was refactored to randomly, either use the same or get a new image from the tshirt databsae, and a truth label was generated alongside. The `SiameseNetwork` class was tweaked to handle our cropped RGB 130x150 images and the number of feature maps generatead tweaked for my laptop's feeble GTX1050Ti to handle.
+
+The model was trained using the 130x150 pixel RGB Images on Windows 10 with CUDA 9.1 using PyTorch 0.4.0. It was trained for around 50 epochs.
+
+Jupyter notebooks inside 
+
+# The Second Model
+
