@@ -43,8 +43,8 @@ All of these pictures were downloaded at a high quality resolution of 1080x1440 
 Before beginning to research on the internet how i could compare two pictures using neural networks, My own idea of the model was to use a CNN to classify the input images as one of the output classes, the classes representing each picture in the database, with this structure we could ge the most probably class for an input image, this was later implemented too.  
 
 Research a.k.a using google, led to different articles and papers,	
-- https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e
-- https://arxiv.org/pdf/1703.02344
-- https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
+- [https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e](https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e)
+- [https://arxiv.org/pdf/1703.02344](https://arxiv.org/pdf/1703.02344)
+- [https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
     
 Teaching me about Siamese Networks, two identical convolutional neural networks, 
