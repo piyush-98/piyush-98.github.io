@@ -80,4 +80,4 @@ Thanks to [Kautuk Kundan](https://github.com/kautukkundan) for contributing the 
 
 # The End
 
-I apologize for any incorrect statements, inaccuracies and all grammatical errors. Criticism Appreciated. 
+I apologize for any incorrect statements, inaccuracies and all grammatical errors. Constructive Criticism Appreciated. 
