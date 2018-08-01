@@ -4,7 +4,7 @@ published: false
 ---
 layout: post
 title:  "Building ReverSEE"
-date:   2018-08-02
+date:   2018-08-02 +0530
 categories: machinelearning project
 ---
 
@@ -22,6 +22,7 @@ The basic architecture:
 
 `Web Frontend <-- API --> Model` 
 
+To fuel this idea with my limited skills in machine learning, I sought out to prepare a dataset of product images which would then be used to train a model, comparing an input image with th database with the most probable outputs be displayed on a webpage.
 
 # The Dataset
 
