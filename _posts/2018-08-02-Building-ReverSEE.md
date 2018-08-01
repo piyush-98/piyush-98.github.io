@@ -51,9 +51,29 @@ Teaching me about Siamese Networks, using two identical convolutional neural net
 
 The base code for the model was harvested from [https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch), It uses two images and a truth label to train the model, the `SiameseNetworkDataset` class was refactored to randomly, either use the same or get a new image from the tshirt databsae, and a truth label was generated alongside. The `SiameseNetwork` class was tweaked to handle our cropped RGB 130x150 images and the number of feature maps generatead tweaked for my laptop's feeble GTX1050Ti to handle.
 
-The model was trained using the 130x150 pixel RGB Images on Windows 10 with CUDA 9.1 using PyTorch 0.4.0. It was trained for around 50 epochs.
+The model was trained, `model/train.py` using the 130x150 pixel RGB Images on Windows 10 with CUDA 9.1 using PyTorch 0.4.0. It was trained for around 50 epochs.
 
-Jupyter notebooks inside 
+Jupyter notebook `model/QueryTest.ipynb` can be used to test this trained Siamese Network, it iterated over all the images present in the database and compared it with the input. This task took around 100 seconds to complete on the 10000 image dataset on laptop, impractical to be used to power an HTTP API.
+
+I could not formulate a quantitative method to judge the model, but it seemed to generate decent results based on my own judgement, atleast suggesting a few similarly coloured tshirts in the top 10 probable.
 
 # The Second Model
+
+The second model of a standard CNN, or the original model which was thought about, was built out of the `SiameseNetwork` architecture. 
+
+Output labels based on the image dataset filenames were generated using `model/scraper/gen_classes.py`, The model was trained for 50 epochs. Classes for querying these models with input images were built, `QueryModelCNN` accepts a PIL.Image instance and returns top 10 similar image paths from the database.
+
+Querying the CNN was a rather instant process compared to the 100 seconds taken by the Simaese Network, rather practical for powering an API.
+
+`model/QueryTestCNN.ipynb` can be used to test the CNN on input image, again, there was a lack of a quantitative method of judging the model, based on the test of my eyes, for similar images the model seemed to perform worse than the Siamese Network. 
+
+The models were saved as files to be used for serving through the api.
+
+# The API
+
+Flask was used to build a RESTful API to serve the model. Helper classes in `app/helpers.py` queried the model with an image recieved by the API and returned a `pandas.DataFrame` of the top 10 most probable items.
+
+POST `/api/matchcnn` accepted the image data sent by a client and sent back a json of top 10 most probable items, which were paths of static files being served by flask (atleast for the development server).
+
+
 
