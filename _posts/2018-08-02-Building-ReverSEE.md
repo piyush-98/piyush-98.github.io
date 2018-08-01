@@ -2,7 +2,8 @@
 published: true
 title:  "Building ReverSEE"
 date:   2018-08-02
-categories: machinelearning project
+categories: project
+tags: machinelearning pytorch cuda windows project reversee javascript python flask
 ---
 
 ## Building ReverSEE
