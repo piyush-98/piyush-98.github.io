@@ -65,7 +65,7 @@ Output labels based on the image dataset filenames were generated using `model/s
 
 Querying the CNN was a rather instant process compared to the 100 seconds taken by the Simaese Network, rather practical for powering an API.
 
-`model/QueryTestCNN.ipynb` can be used to test the CNN on input image, again, there was a lack of a quantitative method of judging the model, based on the test of my eyes, for similar images the model seemed to perform worse than the Siamese Network. 
+`model/QueryTestCNN.ipynb` can be used to test the CNN on input image, again, there was a lack of a quantitative method of judging the model, based on the test of my eyes, for similar images the model seemed to perform worse than the Siamese Network.
 
 The models were saved as files to be used for serving through the api.
 
@@ -73,7 +73,5 @@ The models were saved as files to be used for serving through the api.
 
 Flask was used to build a RESTful API to serve the model. Helper classes in `app/helpers.py` queried the model with an image recieved by the API and returned a `pandas.DataFrame` of the top 10 most probable items.
 
-POST `/api/matchcnn` accepted the image data sent by a client and sent back a json of top 10 most probable items, which were paths of static files being served by flask (atleast for the development server).
-
-
+POST `/api/matchcnn` accepted the image data sent by a client and sent back a JSON list of top 10 most probable items, which were paths of static files being served by Flask (atleast for the development server).
 
