@@ -1,7 +1,5 @@
 ---
 published: true
----
----
 layout: post
 title:  "Building ReverSEE"
 date:   2018-08-02 +0530
