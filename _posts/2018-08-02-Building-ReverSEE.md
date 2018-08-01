@@ -1,6 +1,13 @@
 ---
 published: false
 ---
+---
+layout: post
+title:  "Building ReverSEE"
+date:   2018-08-02
+categories: machinelearning project
+---
+
 ## Building ReverSEE
 
 This post aims to cover the developement process of [ReverSEE](https://github.com/arush15june/reversee), a reverse image search hoopla i built to essentialy learn to use PyTorch.
