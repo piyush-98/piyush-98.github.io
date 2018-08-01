@@ -24,10 +24,28 @@ The basic architecture:
 
 To fuel this idea with my limited skills in machine learning, I sought out to prepare a dataset of product images which would then be used to train a model, comparing an input image with th database with the most probable outputs be displayed on a webpage.
 
+Quick google searches led me to the ideas of Siamese Networks, a kind of Convolutional Neural Networks, which could be trained and used for comparison, in this case, the tshirt database with an input image.
+
 # The Dataset
 
 Though, ReverSEE could be trained on a dataset of pretty much any product, I chose T-Shirts. Back to the popular indian fashion website, it has a client side rendered frontend, just like all modern websites, which means all the product data is procured by requesting an HTTP API using XML-HTTP Requests.
 
 In the Network tab of the Chrome Developer Tools, filtering it to only display XHR, you could find out the API Endpoint used to get product data for a specific category, in this case, `Men's T-Shirts`. The endpoint was actually found out by a friend, [Ujjwal Gupta](https://github.com/slapbot).
 
-With this endpoint we could request paginated tshirt data, a simple script to scrape this data was written which scraped around 8000 odd images of tshirts.
+With this endpoint we could request paginated tshirt data, a simple script, `model/scraper/scraper.py` to scrape this data was written which scraped around 10000 odd images of tshirts.
+
+Although, after a lot of work had been done, It was found that there were a lot of duplicate images, around 2500 images, this was later fixed by a bash command/tool (WSL Bash runnning on Windows 10) which i have since lost. It removed duplicates based on their md5 hash. 7500~ pictures remain after this cleansing.
+
+All of these pictures were downloaded at a high quality resolution of 1080x1440 pixels, later resized to 130x150 pixels using `model/scraper/resize.py` to be used for training the the model.
+
+# The Model
+
+Before beginning to research on the internet how i could compare two pictures using neural networks, My own idea of the model was to use a CNN to classify the input images as one of the output classes, the classes representing each picture in the database, with this structure we could ge the most probably class for an input image, this was later implemented too.  
+
+Research a.k.a using google, led to different articles and papers, 
+ 	
+-https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e
+-https://arxiv.org/pdf/1703.02344
+-https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
+    
+Teaching me about Siamese Networks, two identical convolutional neural networks, 
