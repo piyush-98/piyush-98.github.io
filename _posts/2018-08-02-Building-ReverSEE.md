@@ -1,7 +1,7 @@
 ---
 published: true
-title:  "Building ReverSEE"
-date:   2018-08-02
+title: Building ReverSEE
+date: {}
 categories: project
 tags: machinelearning pytorch cuda windows project reversee javascript python flask
 ---
@@ -38,7 +38,7 @@ All of these pictures were downloaded at a high quality resolution of 1080x1440 
 
 # The Model
 
-Before beginning research on the internet on how I could compare two pictures using neural networks, My own idea of the model was to use a CNN to classify the input images as one of the output classes, the classes representing each picture in the database, with this structure we could ge the most probably class for an input image, this was later implemented too.  
+Before beginning research on the internet on how I could compare two pictures using neural networks, My own idea of the model was to use a CNN to classify the input images as one of the output classes, the classes representing each picture in the database, with this structure we could get the most probable class for an input image, this was later implemented too.  
 
 Research a.k.a using google, led to different articles and papers,	
 - [https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e](https://hackernoon.com/one-shot-learning-with-siamese-networks-in-pytorch-8ddaab10340e)
@@ -47,7 +47,7 @@ Research a.k.a using google, led to different articles and papers,
     
 Teaching me about Siamese Networks, using two identical convolutional neural networks to generate a parameter which could be used to infer similarity between two images. With my limited understanding of CNN's and Siamese Networks, I will refrain from any technincal comments regarding how the process is done but it is covered in [https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) for those interested.
 
-The base code for the model was harvested from [https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch), It uses two images and a truth label to train the model, the `SiameseNetworkDataset` class was refactored to randomly, either use the same or get a new image from the tshirt databsae, and a truth label was generated alongside. The `SiameseNetwork` class was tweaked to handle our cropped RGB 130x150 images and the number of feature maps generatead tweaked for my laptop's feeble GTX1050Ti to handle.
+The base code for the model was harvested from [https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch), It uses two images and a truth label to train the model, the `SiameseNetworkDataset` class was refactored to randomly, either use the same or get a new image from the tshirt database, and a truth label was generated alongside. The `SiameseNetwork` class was tweaked to handle our cropped RGB 130x150 images and the number of feature maps generatead tweaked for my laptop's feeble GTX1050Ti to handle.
 
 The model was trained, `model/train.py` using the 130x150 pixel RGB Images on Windows 10 with CUDA 9.1 using PyTorch 0.4.0. It was trained for around 50 epochs.
 
@@ -81,4 +81,4 @@ Thanks to [Kautuk Kundan](https://github.com/kautukkundan) for contributing the 
 
 # The End
 
-I apologize for any incorrect statements, inaccuracies and all grammatical errors. Constructive Criticism Appreciated. 
+I apologize for any incorrect statements, inaccuracies and all grammatical errors. Constructive Criticism Appreciated.
