@@ -1,7 +1,7 @@
 ---
 published: true
 categories: writeup
-title: CSAW CTF Quals 2018
+title: CSAW CTF Quals 2018 Writeup
 tags: csaw quals ctf python forensics web misc
 ---
 ## CSAW CTF Quals 2018
