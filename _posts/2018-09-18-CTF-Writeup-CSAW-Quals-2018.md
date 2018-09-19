@@ -28,6 +28,8 @@ flag{HOW_WAS_IT_NAVIGATING_THAT_FOREST?}
 ```
 Flag: **flag{HOW_WAS_IT_NAVIGATING_THAT_FOREST?}**
 
+Code: [Gist](https://gist.github.com/arush15june/d44efc6af73d81cc4aa5a3a560c8fa82)
+
 ### `sso` - Web
   **TODO**
   
