@@ -20,7 +20,7 @@ Add these numbers to a AVL Binary Tree, then send them back in the preorder trav
 Send the preorder traversal in a comma sperated list.
 ```
 
-Upon scouring the internet for some code to create an AVL Tree, I found an `AVLTree` Class in Python and glued it together with the server's response, upon sending the correct preorder traversal list (after going through multiple AVL Tree different classes!), the flag was received.
+Upon scouring the internet for some code to create an AVL Tree, I found an `AVLTree` Class in Python and glued it together with the server's response, upon sending the correct preorder traversal list (after going through multiple AVL Tree classes!), the flag was received.
 
 ```
 38,27,8,3,1,0,6,4,14,12,9,10,13,22,17,15,19,26,24,32,30,29,31,34,33,37,35,73,57,49,45,41,40,43,48,47,55,52,66,62,61,64,63,65,70,69,71,90,85,79,78,82,83,87,86,89,97,92,99,98,100
