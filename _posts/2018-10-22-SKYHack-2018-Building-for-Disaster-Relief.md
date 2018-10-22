@@ -1,6 +1,9 @@
 ---
-title: SKYHack 2018: Building for Disaster Relief
+title: SKYHack 2018 Building for Disaster Relief
 published: true
+date: 2018-10-22T00:00:00.000Z 
+categories: hackathon
+tags: skyhack aic chhattisgarh incubator hackathon android react react-native SKY CHIPS
 ---
 
 # SKYHack 2018: Building for Disaster Relief
