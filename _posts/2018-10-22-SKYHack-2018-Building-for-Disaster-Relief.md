@@ -1,4 +1,5 @@
 ---
+published: true
 title: SKYHack 2018: Building for Disaster Relief
 date: 2018-10-22T00:00:00.000Z 
 categories: hackathon
