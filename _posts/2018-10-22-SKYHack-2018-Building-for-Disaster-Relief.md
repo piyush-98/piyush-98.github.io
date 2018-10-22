@@ -1,7 +1,7 @@
 ---
 published: true
-title: SKYHack 2018: Building for Disaster Relief
 ---
+
 # SKYHack 2018: Building for Disaster Relief
 
 This blog post details my experience in participating in [SkyHack 2018](skyhack.36inc.in), a hackathon by the Chhattisgarh Government to build applications for Android Phones going to be distributed as part of the [Sanchar Kranti Yojana](https://navbharattimes.indiatimes.com/business/business-news/micromax-jio-bag-rs-1500-cr-order-from-chhattisgarh-government/articleshow/65830455.cms).
