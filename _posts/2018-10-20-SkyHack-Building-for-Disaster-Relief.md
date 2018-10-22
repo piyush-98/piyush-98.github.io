@@ -27,6 +27,10 @@ Along with building the ideas conceptually we made sure we had the neccessary te
 
 ## Our Solution
 
+We approached the divided problem with the disaster education platform coming in first.
+
+## Disaster Education
+
 We took a gamified approach towards building the disaster education platform, the ideology was to build `narratives` out of preventive measures to be taken during a disasters, to take the users on a ride with paths they could choose for themselves. A choose your adventure for teaching people about disasters. `It's an Earthquake! What will you do?! Hide under the tabel or Sit on the Sofa?` (well, the PoC didn't quite end up as our imaginations)
 
 For the second part, We were to essentially build a system to provide relief when a calamity hits or when a person was under duress. Right from the beginning of the idea, we decided we needed to keep tech on the person's phone to a minimum because getting internet connectivity during a disaster will always end up as a problem, so we relied on an assumption that 2G GSM networks were available and SMSes could be sent. Thinking a bit more practically, assuming even 2G GSM networks was a long shot during a disaster, but some kind of networking is needed to provide relief, that is why we ended up using 2G GSM as our constraint.   
