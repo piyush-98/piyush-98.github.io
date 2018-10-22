@@ -190,5 +190,3 @@ I ended up learning to build an application in React Native and gathered more kn
 
 The city of Raipur also had great air compared to Delhi. 10/10 will go again.
 
-
-
