@@ -171,5 +171,5 @@ class Geocoder():
         return (self.lat, self.lng)
 ```
 
-(well, the geocoding api can be a hit or miss, so multiple tries with the same request might return different results)
+(well, the geocoding api can be a hit or a miss, so multiple tries with the same request might return different results)
 
