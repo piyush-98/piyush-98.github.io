@@ -43,8 +43,7 @@ The idea was to build a narrative for a person to follow, allowing them to choos
 
 Building with this example, we decided to make our PoC as a questionnaire-sort-of experience asking questions and giving binary options to choose from, one leading to safety and the other leading to, well, `loss`. 
 
-<img src='https://i.imgur.com/P03Q9Or.jpg' width='25%' alt='CalamiTeacher'>
-<img src='https://i.imgur.com/fqrpQ2n.png' width='25%' alt='Choices'>
+<img src='https://i.imgur.com/P03Q9Or.jpg' width='25%' alt='CalamiTeacher'><img src='https://i.imgur.com/fqrpQ2n.png' width='25%' alt='Choices'>
 
 ## Disaster Relief
 
