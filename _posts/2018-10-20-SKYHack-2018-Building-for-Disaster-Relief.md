@@ -50,4 +50,7 @@ Building with this example, we decided to make our PoC as a questionnaire-sort-o
 
 For the second part, We were to essentially build a system to provide relief when a calamity hits or when a person was under duress. Right from the beginning of the idea, we decided we needed to keep tech on the person's phone to a minimum because getting internet connectivity during a disaster will always end up as a problem, so we relied on an assumption that 2G GSM networks were available and SMSes could be sent. Thinking a bit more practically, assuming even 2G GSM networks was a long shot during a disaster, but some kind of networking is needed to provide relief, that is why we ended up using 2G GSM as our constraint.   
 
-The concept was to have a service which could receieve conversational messages from a person in duress and provide relief information like nearest police stations, hospitals, relief camps, if any. The API to be built would also allow for people to add information to the database, thus, crowdsource information, and the information could be accessed in real time.  
+The concept was to have a service which could receieve conversational messages from a person in duress and provide relief information like nearest police stations, hospitals, relief camps, if any. The API to be built would also allow for people to add information to the database, thus, crowdsource information, and the information could be accessed realtime.
+
+**`A Simplified Chatbot for Relief during disasters.`**
+
