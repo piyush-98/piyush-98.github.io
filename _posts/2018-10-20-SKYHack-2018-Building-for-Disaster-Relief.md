@@ -43,7 +43,7 @@ For example, If you are stuck in an earthquake, Will you prefer to sit (and sip 
 Building with this example, we decided to make our PoC as a questionnaire-sort-of experience asking questions and giving binary options to choose from, one leading to safety and the other leading to, well, `loss`. 
 
 <img src='https://i.imgur.com/P03Q9Or.jpg' width='25%' alt='CalamiTeacher'>
-<img src='https://i.imgur.com/P03Q9Or.jpg' width='25%'>
+<img src='https://i.imgur.com/fqrpQ2n.png' width='25%' alt='Choices'>
 
 ![Calamiteacher](https://i.imgur.com/P03Q9Or.jpg =480x640)
 ![Choices](https://i.imgur.com/fqrpQ2n.png =480x640)
