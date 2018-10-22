@@ -1,7 +1,6 @@
 ---
 published: true
 title: SKYHack 2018: Building for Disaster Relief
-categories: hackathon
 ---
 # SKYHack 2018: Building for Disaster Relief
 
