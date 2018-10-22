@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 categories: hackathon
 tags: >-
   skyhack aic chhattisgarh incubator hackathon android react react-native SKY
