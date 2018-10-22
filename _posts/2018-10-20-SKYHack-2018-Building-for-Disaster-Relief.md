@@ -46,9 +46,6 @@ Building with this example, we decided to make our PoC as a questionnaire-sort-o
 <img src='https://i.imgur.com/P03Q9Or.jpg' width='25%' alt='CalamiTeacher'>
 <img src='https://i.imgur.com/fqrpQ2n.png' width='25%' alt='Choices'>
 
-![Calamiteacher](https://i.imgur.com/P03Q9Or.jpg =480x640)
-![Choices](https://i.imgur.com/fqrpQ2n.png =480x640)
-
 ## Disaster Relief
 
 For the second part, We were to essentially build a system to provide relief when a calamity hits or when a person was under duress. Right from the beginning of the idea, we decided we needed to keep tech on the person's phone to a minimum because getting internet connectivity during a disaster will always end up as a problem, so we relied on an assumption that 2G GSM networks were available and SMSes could be sent. Thinking a bit more practically, assuming even 2G GSM networks was a long shot during a disaster, but some kind of networking is needed to provide relief, that is why we ended up using 2G GSM as our constraint.   
