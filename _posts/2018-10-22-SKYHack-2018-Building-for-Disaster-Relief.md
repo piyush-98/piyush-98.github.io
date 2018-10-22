@@ -1,8 +1,7 @@
 ---
+title: SKYHack 2018 Building for Disaster Relief
 published: true
-future: true
-title: SKYHack 2018: Building for Disaster Relief
-date: 2018-10-20T00:00:00.000Z 
+date: 2018-10-22T00:00:00.000Z 
 categories: hackathon
 tags: skyhack aic chhattisgarh incubator hackathon android react react-native SKY CHIPS
 ---
@@ -191,4 +190,3 @@ Well, we didn't win the Rs.2 Lakh prize, but we got 3 SKY phones as a token of p
 I ended up learning to build an application in React Native and gathered more knowledge on building REST APIs and SMS Powered Apps.
 
 The city of Raipur also had great air compared to Delhi. 10/10 will go again.
-
