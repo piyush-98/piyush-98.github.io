@@ -39,6 +39,7 @@ The conceptual inspiration was taken from video games like `Life is Strange`, `W
 The idea was to build a narrative for a person to follow, allowing them to choose the course of the narrative, which was the event of a disaster happening, penalizing them with providing them the correct information and the consequences which could have led to loss of life and property.
 
 **For example,** 
+
 `If you are stuck in an earthquake, Will you prefer to sit (and sip wine) on a sofa or hide under that hard wooden table. Yes, The Table.` 
 
 Building with this example, we decided to make our PoC as a questionnaire-sort-of experience asking questions and giving binary options to choose from, one leading to safety and the other leading to, well, `loss`. 
@@ -48,3 +49,5 @@ Building with this example, we decided to make our PoC as a questionnaire-sort-o
 ## Disaster Relief
 
 For the second part, We were to essentially build a system to provide relief when a calamity hits or when a person was under duress. Right from the beginning of the idea, we decided we needed to keep tech on the person's phone to a minimum because getting internet connectivity during a disaster will always end up as a problem, so we relied on an assumption that 2G GSM networks were available and SMSes could be sent. Thinking a bit more practically, assuming even 2G GSM networks was a long shot during a disaster, but some kind of networking is needed to provide relief, that is why we ended up using 2G GSM as our constraint.   
+
+The concept was to have a service which could receieve conversational messages from a person in duress and provide relief information like nearest police stations, hospitals, relief camps, if any. The API to be built could also allow for building  
