@@ -5,7 +5,7 @@ categories: hackathon
 tags: skyhack aic chhattisgarh incubator hackathon android react react-native SKY CHIPS
 ---
 
-# SKYHack 2018: Building for Disaster Relief
+## SKYHack 2018: Building for Disaster Relief
 
 This blog post details my experience in participating in [SkyHack 2018](skyhack.36inc.in), a hackathon by the Chhattisgarh Government to build applications for Android Phones going to be distributed as part of the [Sanchar Kranti Yojana](https://navbharattimes.indiatimes.com/business/business-news/micromax-jio-bag-rs-1500-cr-order-from-chhattisgarh-government/articleshow/65830455.cms).
 
@@ -13,7 +13,7 @@ The process of participation included selecting a social problem to solve from a
 
 I participated in a team of 4, with, [Vinayakk Garg](https://github.com/vinayakkgarg), [Hardik Khurana](https://github.com/hardik0330) and [Rishab Bansal](https://github.com/rishab-rb).
 
-# A Problem to Conquer
+## A Problem to Conquer
 
 Out of 6 problem statements, dealing with different problems, We were intrigued by with an idea for the 3rd one
 
