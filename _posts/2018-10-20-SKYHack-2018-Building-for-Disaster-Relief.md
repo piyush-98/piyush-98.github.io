@@ -177,5 +177,16 @@ With this we had CSVs containing information of Relief Heplines in Chhattisgarh 
 
 We built a database of approximately 450 Relief Helplines.
 
+# Pitching our application and the event.
+
+Our proposal was selected and we flew to Raipur to pitch our application! The event took place at 36Inc, Raipur, a newly innaugrated Incubator in raipur incubating a lot of interesting startups.
+
+For the competition, we ended up in a round table pitching our application to a panel of people from different domains and not just tech.
+
+# Conclusion
+
+Well, we didn't win the Rs.2 Lakh prize, but we got 3 SKY phones as a token of participation. 
+I ended up learning  
+
 
 
