@@ -157,9 +157,6 @@ class Geocoder():
         return r
 
     def _geocode_location(self):
-        geocode = None
-        geocode_tries = 0
-        
         geocode = self._geocode_request(self.location)
         
         geocode_data = geocode.json()
@@ -173,3 +170,6 @@ class Geocoder():
     def coordinates(self):
         return (self.lat, self.lng)
 ```
+
+(well, the geocoding api can be a hit or miss, so multiple tries with the same request might return different results)
+
