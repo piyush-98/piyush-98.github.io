@@ -173,3 +173,9 @@ class Geocoder():
 
 (well, the geocoding api can be a hit or a miss, so multiple tries with the same request might return different results)
 
+With this we had CSVs containing information of Relief Heplines in Chhattisgarh such as Hospitals, NGOs and Police Stations. This data was added to a SQL database with models defined in Django and served over the REST API.
+
+We built a database of around 450 Relief Helplines.
+
+
+
