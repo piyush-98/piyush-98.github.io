@@ -38,7 +38,7 @@ We took a gamified approach towards building the disaster education platform, th
 The conceptual inspiration was taken from video games like `Life is Strange`, `Wolfs Among Us` and other choose your own adventure games.
 The idea was to build a narrative for a person to follow, allowing them to choose the course of the narrative, which was the event of a disaster happening, penalizing them with providing them the correct information and the consequences which could have led to loss of life and property.
 
-**For example,** 
+**Example:** 
 
 `If you are stuck in an earthquake, Will you prefer to sit (and sip wine) on a sofa or hide under that hard wooden table. Yes, The Table.` 
 
@@ -52,5 +52,6 @@ For the second part, We were to essentially build a system to provide relief whe
 
 The concept was to have a service which could receieve conversational messages from a person in duress and provide relief information like nearest police stations, hospitals, relief camps, if any. The API to be built would also allow for people to add information to the database, thus, crowdsource information, and the information could be accessed realtime.
 
-**`A Simplified Chatbot for Relief during disasters.`**
+**`A Simplified Chatbot for relief during disasters.`**
 
+Example:
