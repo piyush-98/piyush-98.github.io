@@ -46,7 +46,7 @@ Building with this example, we decided to make our PoC as a questionnaire-sort-o
 
 <img src='https://i.imgur.com/P03Q9Or.jpg' width='25%' alt='CalamiTeacher'> <img src='https://i.imgur.com/fqrpQ2n.png' width='25%' alt='Choices'>
 
-## Disaster Relief
+## Disaster Relief Hepline
 
 For the second part, We were to essentially build a system to provide relief when a calamity hits or when a person was under duress. Right from the beginning of the idea, we decided we needed to keep tech on the person's phone to a minimum because getting internet connectivity during a disaster will always end up as a problem, so we relied on an assumption that 2G GSM networks were available and SMSes could be sent. Thinking a bit more practically, assuming even 2G GSM networks was a long shot during a disaster, but some kind of networking is needed to provide relief, that is why we ended up using 2G GSM as our constraint.   
 
@@ -54,4 +54,20 @@ The concept was to have a service which could receieve conversational messages f
 
 **`A Simplified Chatbot for relief during disasters.`**
 
-Example:
+**Example:**
+
+A person sends a message to our service,
+
+`I am stuck in a flood at City Centre Mall, Raipur`
+
+The service recieves the message identifies the important intents from the message
+
+`I am` **`stuck in a flood`** `at` **`City Centre Mall, Raipur`**
+
+With this we know, what has happened to the person and where is the person, using this information we can pin point them and find the nearest helplines from that person.
+
+A database of Hospitals, Police Stations in Raipur was built using lists by the government available on the internet and some python data processing magic. This information was stored in the database accessed by the application server powering the service. 
+
+An API was built to access the service, but our main aim was to power it over SMS, Twillio offered programmatic SMS services, the same application server was modified to allow for receving messages from twillio and sending responses back. 
+
+<img src='https://i.imgur.com/nXkKpsZ.png' width='25%' alt='Choices'>
