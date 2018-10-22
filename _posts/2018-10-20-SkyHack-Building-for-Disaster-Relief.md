@@ -21,7 +21,11 @@ _During an incidence of natural disaster, information and time are two of the mo
 
 The problem was divided into two parts, in the first part we had to build a disaster education platform for educating people before a disaster strikes and a system to provide relief to people under duress.
 
-Another major requirement of the `Problem Statement` was to crowdsource information and let it be easily accessible. 
+Another major requirement of the `Problem Statement` was to crowdsource information and let it be easily accessible.
+
+Along with building the ideas conceptually we made sure we had the neccessary technical skills and neccessary technical information to build our ideas. Knowledge of JavaScript was the biggest enabler, allowing us to quickly spurn up an Android Application in a matter of days.
+
+## Our Solution
 
 We took a gamified approach towards building the disaster education platform, the ideology was to build `narratives` out of preventive measures to be taken during a disasters, to take the users on a ride with paths they could choose for themselves. A choose your adventure for teaching people about disasters. `It's an Earthquake! What will you do?! Hide under the tabel or Sit on the Sofa?` (well, the PoC didn't quite end up as our imaginations)
 
