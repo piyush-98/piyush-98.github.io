@@ -33,12 +33,13 @@ We named it **CalamiTeacher**.
 
 ### Disaster Education
 
-We took a gamified approach towards building the disaster education platform, the ideology was to build `narratives` out of preventive measures to be taken during a disasters, to take the players on a ride with paths they could choose for themselves. A choose your adventure for teaching people about disasters. `It's an Earthquake! What will you do?! Hide under the tabel or Sit on the Sofa?` (well, the PoC didn't quite end up as our imaginations, welp welp.)
+We took a gamified approach towards building the disaster education platform, the ideology was to build `narratives` out of preventive measures to be taken during a disasters, to take the players on a ride with paths they could choose for themselves. A choose your adventure for teaching people about disasters. `It's an Earthquake! What will you do?! Hide under the table or Sit on the Sofa?` (well, the PoC didn't quite end up as our imaginations, welp welp.)
 
 The conceptual inspiration was taken from video games like `Life is Strange`, `Wolfs Among Us` and other choose your own adventure games.
 The idea was to build a narrative for a person to follow, allowing them to choose the course of the narrative, which was the event of a disaster happening, penalizing them with providing them the correct information and the consequences which could have led to loss of life and property.
 
-For example, If you are stuck in an earthquake, Will you prefer to sit (and sip wine) on a sofa or hide under that hard wooden table. Yes, The Table. 
+**For example,** 
+`If you are stuck in an earthquake, Will you prefer to sit (and sip wine) on a sofa or hide under that hard wooden table. Yes, The Table.` 
 
 Building with this example, we decided to make our PoC as a questionnaire-sort-of experience asking questions and giving binary options to choose from, one leading to safety and the other leading to, well, `loss`. 
 
