@@ -71,3 +71,5 @@ A database of Hospitals, Police Stations in Raipur was built using lists by the 
 An API was built to access the service, but our main aim was to power it over SMS, Twillio offered programmatic SMS services, the same application server was modified to allow for receving messages from twillio and sending responses back. 
 
 <img src='https://i.imgur.com/nXkKpsZ.png' width='25%' alt='Choices'>
+
+In the end, We found out Twillio didn't really work with Indian numbers, though the same could be replicated by using the GupShup API for Indian Numbers.
