@@ -82,7 +82,7 @@ React Native is a framework for developing native Android and iOS applications i
 
 The application was divided in two swipeable views for dealing with the two parts of the problem.
 
-# Disaster Education
+## Disaster Education
 
 The window was divided in three rows
  - Media for the current question
@@ -91,3 +91,85 @@ The window was divided in three rows
  
 (as can be seen in screenshots above)
 
+The idea of a narrative was not implemented to the extent of the concept, it was limited to providing the user correct information when a wrong option was selected and allowing them to select the correct information and proceed to the next question.
+
+Building this section of the application was fairly straightfoward as the data for the questions was taken from a list of question written in a specific format and displayed succesively.
+
+The format for defining a question was decided as (JSON):
+
+```
+{   
+  'question': `Garbage bins, spare pipes, loose bricks outside house`,
+  'img': Images.Questions[0],
+  'options': {
+      'choices': [ 
+          {
+              'name': 'Leave them there',                },
+          {
+              'name': 'Clean them asap', 
+          }
+      ],
+      'correct' : 1,
+      'correctText': `Keep the surroundings clean, Don’t let loose objects lie around`,
+      'incorrectText': `Don’t let loose objects lie around before occurrence of a cyclone`
+  },
+}
+```
+
+With this structure, all the information about the question could be represented as JSON and stored in a list of question which was rendered by the App.
+
+Source code for the application is available on [GitHub](https://github.com/arush15june/calalmiteacher).
+
+##  Disaster Relief
+
+The Disaster Relief system required NLP for processing messages received by the application, we used DialogFlow for this purpose, as it was easy to build intents and the service exposed a REST API to access the platform.
+
+The application server was built in Django, It received requests from the application and SMS WebHook's and generated Hepline Responses.
+
+DialogFlow was trained to pick up two intents, The Location of a person and the problem they were facing, It worked pretty good,even picking up locations that were not part of the training process most of the times.
+
+When a request, a message, was recieved by the server, the message was sent to DialogFlow to extract the important information from the message. With this information we could recommend helplines nearest to the message sender.
+
+For suggesting nearest helplines, we needed two points of information, coordinates of the sender, coordinates of helplines in our database. Then the euclidean distance of the coordinates would provide the information of the nearest helplines.
+
+### Building the database
+
+The information we extracted from publicly available lists was put in spreadsheets, most of the rows contained information like the Name of the Helpline, the Address, the City, and the Contact Information. To power our API, we needed the Coordinates of these helplines, Google's Geocoding API allowed us to do that. We built a simple Geocoder module and Geocoded the addresses to Coordinates. 
+
+```
+class Geocoder():
+    
+    API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
+    API_KEY = ''
+    
+    def __init__(self, location, *args, **kwargs):
+        self.location = location
+        self.lat = None
+        self.long = None
+        self._geocode_location()
+            
+    def _geocode_request(self, address):
+        params = {
+            'address': address,
+            'key': self.API_KEY
+        }
+        r = requests.get(self.API_URL, params=params, headers={'Cache-Control': 'no-cache'})   
+        return r
+
+    def _geocode_location(self):
+        geocode = None
+        geocode_tries = 0
+        
+        geocode = self._geocode_request(self.location)
+        
+        geocode_data = geocode.json()
+        lat = geocode_data['results'][0]['geometry']['location']['lat']
+        lng = geocode_data['results'][0]['geometry']['location']['lng']
+
+        self.lat = lat
+        self.lng = lng
+        
+    @property
+    def coordinates(self):
+        return (self.lat, self.lng)
+```
