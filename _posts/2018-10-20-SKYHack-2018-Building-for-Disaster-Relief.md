@@ -186,7 +186,9 @@ For the competition, we ended up in a round table pitching our application to a 
 # Conclusion
 
 Well, we didn't win the Rs.2 Lakh prize, but we got 3 SKY phones as a token of participation. 
-I ended up learning  
+I ended up learning to build an application in React Native and gathered more knowledge on building REST APIs and SMS Powered Apps.
+
+The city of Raipur also had great air compared to Delhi. 10/10 will go again.
 
 
 
