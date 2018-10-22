@@ -5,7 +5,7 @@ tags: >-
   skyhack aic chhattisgarh incubator hackathon android react react-native SKY
   CHIPS
 ---
-# SkyHack 2018: Building for Disaster Relief
+# SKYHack 2018: Building for Disaster Relief
 
 This blog post details my experience in participating in [SkyHack 2018](skyhack.36inc.in), a hackathon by the Chhattisgarh Government to build applications for Android Phones going to be distributed as part of the [Sanchar Kranti Yojana](https://navbharattimes.indiatimes.com/business/business-news/micromax-jio-bag-rs-1500-cr-order-from-chhattisgarh-government/articleshow/65830455.cms).
 
@@ -29,7 +29,7 @@ Along with building the ideas conceptually we made sure we had the neccessary te
 
 We approached the divided problem with the disaster education platform coming in first.
 
-## Disaster Education
+### Disaster Education
 
 We took a gamified approach towards building the disaster education platform, the ideology was to build `narratives` out of preventive measures to be taken during a disasters, to take the users on a ride with paths they could choose for themselves. A choose your adventure for teaching people about disasters. `It's an Earthquake! What will you do?! Hide under the tabel or Sit on the Sofa?` (well, the PoC didn't quite end up as our imaginations)
 
