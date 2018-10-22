@@ -68,8 +68,26 @@ With this we know, what has happened to the person and where is the person, usin
 
 A database of Hospitals, Police Stations in Raipur was built using lists by the government available on the internet and some python data processing magic. This information was stored in the database accessed by the application server powering the service. 
 
-An API was built to access the service, but our main aim was to power it over SMS, Twillio offered programmatic SMS services, the same application server was modified to allow for receving messages from twillio and sending responses back. 
+An API was built to access the service, but our main aim was to power it over SMS, Twillio offered programmatic SMS services, the same application server was modified to allow for receving messages from twillio and sending responses back. In the end, We found out Twillio didn't really work with Indian numbers, though the same could be replicated by using the GupShup API for Indian Numbers.
 
 <img src='https://i.imgur.com/nXkKpsZ.png' width='25%' alt='Choices'>
 
-In the end, We found out Twillio didn't really work with Indian numbers, though the same could be replicated by using the GupShup API for Indian Numbers.
+# Technology
+
+The crux of the Hackathon was to build an `Android Aplication` for the SKY phones, With no one in the team having experience with building Native Android Applications, we resorted to using `React-Native` to build our application as the application wasn't very complex in nature requiring any special hardware capabilities we could have wanted from writing it in Java.
+
+To power our relief helpline, A REST API was built with Django and hosted on Heroku.
+
+React Native is a framework for developing native Android and iOS applications in JavaScript.
+
+The application was divided in two swipeable views for dealing with the two parts of the problem.
+
+# Disaster Education
+
+The window was divided in three rows
+ - Media for the current question
+ - The current question's text
+ - Options for the current question
+ 
+(as can be seen in screenshots above)
+
