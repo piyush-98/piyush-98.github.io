@@ -175,7 +175,7 @@ class Geocoder():
 
 With this we had CSVs containing information of Relief Heplines in Chhattisgarh such as Hospitals, NGOs and Police Stations. This data was added to a SQL database with models defined in Django and served over the REST API.
 
-We built a database of around 450 Relief Helplines.
+We built a database of approximately 450 Relief Helplines.
 
 
 
