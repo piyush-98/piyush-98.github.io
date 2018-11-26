@@ -27,8 +27,9 @@ These are some things I believe would help improve your experience on Windows.
 
 On a 1080p display on both my laptop's display and the external monitor, the default 125% scaling option is just harsh, and well, very big. I believe decreasing it to 100% makes it much more bearable and makes the system look more uncluttered.
 
-	-	Right click on the desktop and Select `Display Settings` at the end of the list.
-		<img src='https://i.imgur.com/YYUjE1C.png' max-width='80%' alt='All the shells are mine">
+- Right click on the desktop and Select `Display Settings` at the end of the list.
+
+<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='All the shells are mine">
 
 
 - **Get bash back.**
@@ -37,7 +38,7 @@ On a 1080p display on both my laptop's display and the external monitor, the def
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-<img src='https:/i.imgur.com/2CEXSY1.png' max-width='80%' alt='All the shells are mine">
+<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine">
 
 - Workspaces Good.
 
