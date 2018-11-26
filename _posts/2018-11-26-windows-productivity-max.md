@@ -37,7 +37,7 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 
 - Change the scaling to 100%.
 
-<img src='https://i.imgur.com/WYeVBhY.png' width='80%' alt='100% will do again.">
+<img src='https://i.imgur.com/WYeVBhY.png' width='80%' alt='100% will do again.'>
 
 - **Smaller Taskbar Buttons**
 
@@ -47,7 +47,7 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine">
+<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine'>
 
 - **Workspaces Good.**
 
