@@ -15,4 +15,10 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 - My NVIDIA GPU works, both for PyTorch and Gaming.
 - good battery life, though, using bumblebee on linux makes battery life just as good, if not better, on linux too.
 
+### Improve Windows!
 
+These are some things I believe would help you improve your experience on Windows.
+
+- Better Command Line and terminals!
+
+If you miss using your temrinal
