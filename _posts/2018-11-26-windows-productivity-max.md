@@ -63,6 +63,5 @@ The taskbar is uuuge, by default. Change this to smaller taskbar buttons and enj
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine'>
-
+<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
 - **Workspaces Good.**
