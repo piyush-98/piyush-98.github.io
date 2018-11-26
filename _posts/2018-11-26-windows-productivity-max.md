@@ -31,7 +31,7 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 
 - Right click on the desktop and Select `Display Settings` at the end of the list.
 
-<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options/">
+<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options.">
 
 - Change the scaling to 100%.
 
