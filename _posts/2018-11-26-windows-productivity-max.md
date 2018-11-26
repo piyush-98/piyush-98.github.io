@@ -19,6 +19,10 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 
 These are some things I believe would help you improve your experience on Windows.
 
+- Decrease scaling.
+
+- Get bash back.
+
 - Better Command Line and terminals!
 
-If you miss using your temrinal
+If you miss using your terminal on Linux, fear not, because you are not alone and some good people have made 
