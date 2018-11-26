@@ -66,3 +66,9 @@ Yes, everyone loves their terminals, but using the default CMD prompt, Powershel
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
 
 - **Workspaces Good.**
+
+
+## What's missing?
+
+- KDE Connect
+Who doesnt' love KDE Connect.
