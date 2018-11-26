@@ -19,7 +19,7 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 
 I use Windows 10 Home Edition, which came preinstalled on my Dell 7567 dual booting with AntergOS runnning KDE Plasma 5. A Monitor (Dell S2240L) connected to my laptop and keep it on power most of the time, which imo I should stop doing and make sure its getting proper charge and discharge cycles. Connecting it to an external keyboard and mouse essentially makes it a `Dual Monitor Gaming PC B|` setup. Instead of having my Laptop's screen as the primary monitor, switching to the bigger 21inch monitor as the primary screen makes it very useful, for both working and playing games.
 
-<img src='https://i.imgur.com/aQGGbBW.jpg' width='80%'>
+<img src='https://i.imgur.com/aQGGbBW.jpg' width='80%'  alt='my precious'>
 
 ### Improve Windows!
 
@@ -33,7 +33,7 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 
 - Right click on the desktop and Select `Display Settings` at the end of the list.
 
-<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options.">
+<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options.'>
 
 - Change the scaling to 100%.
 
