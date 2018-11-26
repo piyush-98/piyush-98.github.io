@@ -39,6 +39,7 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 
 <img src='https://i.imgur.com/WYeVBhY.png' width='80%' alt='100% will do again.">
 
+- **Smaller Taskbar Buttons**
 
 - **Get bash back.**
 
@@ -48,6 +49,6 @@ Yes, everyone loves their terminals, but using the default CMD prompt, Powershel
 
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine">
 
-- Workspaces Good.
+- **Workspaces Good.**
 
 
