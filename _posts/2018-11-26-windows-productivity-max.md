@@ -27,6 +27,12 @@ These are some things I believe would help improve your experience on Windows.
 
 - **Enable Dark Mode.**
 
+Not really the dark mode you wanted, still, better than nothing. 
+
+- Go to `Settings->Personalization->Colors`
+
+- Scroll to the botom and select dark mode.
+
 - **Decrease scaling.**
 
 On a 1080p on both my laptop and the external monitor, the default 125% scaling option is just harsh, and well, very big. I believe decreasing it to 100% makes it much more bearable and makes the system look less cluttered.
@@ -50,5 +56,3 @@ Yes, everyone loves their terminals, but using the default CMD prompt, Powershel
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All the shells are mine'>
 
 - **Workspaces Good.**
-
-
