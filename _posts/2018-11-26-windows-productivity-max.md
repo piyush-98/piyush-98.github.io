@@ -23,18 +23,24 @@ I use Windows 10 Home Edition, which came preinstalled on my Dell 7567 dual boot
 
 These are some things I believe would help improve your experience on Windows.
 
+- **Enable Dark Mode.**
+
 - **Decrease scaling.**
 
-On a 1080p display on both my laptop's display and the external monitor, the default 125% scaling option is just harsh, and well, very big. I believe decreasing it to 100% makes it much more bearable and makes the system look more uncluttered.
+On a 1080p on both my laptop and the external monitor, the default 125% scaling option is just harsh, and well, very big. I believe decreasing it to 100% makes it much more bearable and makes the system look less cluttered.
 
 - Right click on the desktop and Select `Display Settings` at the end of the list.
 
 <img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options">
 
+- Change the scaling to 100%.
+
+<img src='https://i.imgur.com/WYeVBhY.png' width='80%' alt='100% will do again">
+
 
 - **Get bash back.**
 
-- **Better Command Line and terminals!**
+- **Better Command Line and terminals with Cmder!**
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
