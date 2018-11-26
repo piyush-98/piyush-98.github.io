@@ -7,7 +7,8 @@ title: Making Windows 10 Usable.
 _I use Arch btw_
 But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup, I use Windows 10.
 
-### Some Points:
+### Some Points
+
 - Windows 10 Home came preinstalled on my laptop (Dell 7567).
 - I like using Windows 10 (not as much as the KDE setup, though).
 - My HDMI Monitor work without problems.
