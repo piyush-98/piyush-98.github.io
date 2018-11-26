@@ -31,6 +31,6 @@ These are some things I believe would help improve your experience on Windows.
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-![All the shells are mine](https:/i.imgur.com/2CEXSY1.png)
+<center><img src='https://i.imgur.com/P03Q9Or.jpg' max-width='80%' alt='https:/i.imgur.com/2CEXSY1.png'></center>
 
 
