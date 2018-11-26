@@ -29,7 +29,7 @@ On a 1080p display on both my laptop's display and the external monitor, the def
 
 - Right click on the desktop and Select `Display Settings` at the end of the list.
 
-<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='All the shells are mine">
+<img src='https://i.imgur.com/YYUjE1C.png' width='80%' alt='Less Eye Gouging Options">
 
 
 - **Get bash back.**
