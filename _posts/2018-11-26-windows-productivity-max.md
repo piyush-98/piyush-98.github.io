@@ -33,6 +33,8 @@ Not really the dark mode you wanted, still, better than nothing.
 
 - Scroll to the botom and select dark mode.
 
+This does not the turn the windows explorer to dark, but atleast makes the system settings dark and windows store dark (and maybe more apps i dont know of).
+
 - **Decrease scaling.**
 
 On a 1080p on both my laptop and the external monitor, the default 125% scaling option is just harsh, and well, very big. I believe decreasing it to 100% makes it much more bearable and makes the system look less cluttered.
@@ -46,6 +48,14 @@ On a 1080p on both my laptop and the external monitor, the default 125% scaling 
 <img src='https://i.imgur.com/WYeVBhY.png' width='80%' alt='100% will do again.'>
 
 - **Smaller Taskbar Buttons**
+
+The taskbar is uuuge, by default. Change this to smaller taskbar buttons and enjoy that space in your taskbar.
+
+- Go to `Settings->Personalization->Taskbar`
+
+- Swipe the button titled `Use Small Taskbar Buttons`
+
+<img src='https://i.imgur.com/a6jXPI9.png' width='80%' alt='100% will do again.'>
 
 - **Get bash back.**
 
