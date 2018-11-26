@@ -15,3 +15,4 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 - My NVIDIA GPU works, both for PyTorch and Gaming.
 - good battery life, though, using bumblebee on linux makes battery life good on linux too.
 
+
