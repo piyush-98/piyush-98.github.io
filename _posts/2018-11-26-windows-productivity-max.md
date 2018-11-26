@@ -17,7 +17,7 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 
 ### Improve Windows!
 
-These are some things I believe would help you improve your experience on Windows.
+These are some things I believe would help improve your experience on Windows.
 
 - Decrease scaling.
 
@@ -25,4 +25,6 @@ These are some things I believe would help you improve your experience on Window
 
 - Better Command Line and terminals!
 
-If you miss using your terminal on Linux, fear not, because you are not alone and some good people have made 
+Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
+
+
