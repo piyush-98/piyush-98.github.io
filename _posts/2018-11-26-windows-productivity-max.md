@@ -155,6 +155,7 @@ The `Cobalt 2` theme.
 
 - Enable the theme, Press `Ctrl-Shift-P` to open the command omnibox, search `Theme`, select it, and select your choice of theme (or Cobalt 2) from the list of themes.
 
+
 - **Workspaces Good.**
 
 
