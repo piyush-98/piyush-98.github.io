@@ -138,6 +138,14 @@ With this setup you can use splitted Powershells, Cmd prompts, WSL Shells, all t
 
 - **The Text Editor: Visual Studio Code, my opinion**
 
+just my choice of text editor, please don't kill me.
+
+Visual Studio Code is a beautiful text editor, Powered by JalebiScript, its not the fastest editor around but it gets my work done. It has tons of extensions, themes, customizable shortcuts, debugging features. You can even program your Arduino's right out of Visual Studio Code.
+
+**Theme of Choice**
+- I use the 
+
+
 - **Workspaces Good.**
 
 
