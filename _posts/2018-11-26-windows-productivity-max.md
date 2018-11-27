@@ -153,7 +153,6 @@ The `Cobalt 2` theme.
 
 - Search for `Cobalt 2` in the 
 
-
 - **Workspaces Good.**
 
 
