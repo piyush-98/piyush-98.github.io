@@ -79,6 +79,23 @@ Yes, everyone loves their terminals, but using the default CMD prompt, Powershel
 
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
 
+There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tried.
+
+[Cmder](https://github.com/cmderdev/cmder) turned out to be the most beautiful piece of all them. Its a fork of ConEmu, but with more niceties.
+
+- Download Cmder's latest release of `cmder.zip` from [https://github.com/cmderdev/cmder/releases/](https://github.com/cmderdev/cmder/releases/).
+
+- Extract it into somewhere where it won't get deleted.
+
+- Pin the Cmder application to your taskbar for super fast access.
+
+- Run it and enjoy the CMD Prompt goodness.
+
+<img src='https://i.imgur.com/ZeHFXwq.png' width='80%' alt='Good Cmder.'>
+
+
+- **Setup Terminals and Shortcuts in Cmder**
+
 - **The Text Editor: Visual Studio Code, my opinion**
 
 - **Workspaces Good.**
