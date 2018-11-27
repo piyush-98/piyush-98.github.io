@@ -125,12 +125,17 @@ These are some shortcuts I have setup which help me go around Cmder faster.
  	- Terminate Window := `Win-Shift-Delete`
     
 **Splitting Panes**
+This duplicates the current terminal into either a right split or a bottom split. Super useful, use it on linux all the time.
 
 - Search `Split: duplicate` in the `Keys and Macros` search bar.
 - Set the hotkey for bottom and right splits (to your liking or what I prefer).
 	- Down Split := `Ctrl-Shift-D' (for this you'll have to clear the existing shortcut for it)
     - Right Split := `Ctrl-Shift-R`
-    
+        
+With this setup you can use splitted Powershells, Cmd prompts, WSL Shells, all together at the same time.
+
+<img src='https://i.imgur.com/FUz7tJX.png' width='80%' alt='oh yea bby'>
+
 - **The Text Editor: Visual Studio Code, my opinion**
 
 - **Workspaces Good.**
