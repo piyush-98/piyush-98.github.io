@@ -96,6 +96,8 @@ There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tri
 - **Setup Terminals and Shortcuts in Cmder**
 These are some shortcuts I have setup which help me go around Cmder faster.
 
+**Terminals**
+
 - Open Cmder
 
 - Open the settings either from the bottom right hamburger or by press `Win-Alt-P`
@@ -111,9 +113,13 @@ These are some shortcuts I have setup which help me go around Cmder faster.
 	- Bash := `Ctrl-Alt-B`
     - Cmd := `Ctrl-Alt-C`
     - Powershell := `Ctrl-Alt-V`
- (Other smooth combinations could be `Ctrl-Shift-1/2/3, or `Ctrl-1/2/3`)
+ (Other smooth combinations could be `Ctrl-Shift-1/2/3`, or `Ctrl-1/2/3`)
  
- - 
+ **Killing processes**
+ 
+ - Select `Keys And Macros` in the `Settings` Window.
+ 
+ -  
 
 - **The Text Editor: Visual Studio Code, my opinion**
 
