@@ -146,6 +146,8 @@ Visual Studio Code is a beautiful text editor, Powered by JalebiScript, its not 
 
 - Download Visual Studio Code and install it from here [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
+Apart from installing Extensions for languages of your choice, here are some customizations I like.
+
 **Theme of Choice**
 The `Cobalt 2` theme.
 
@@ -154,6 +156,17 @@ The `Cobalt 2` theme.
 - Search for `Cobalt 2` in the search bar and install it.
 
 - Enable the theme, Press `Ctrl-Shift-P` to open the command omnibox, search `Theme`, select it, and select your choice of theme (or Cobalt 2) from the list of themes.
+
+**Gitlens**
+VSCode already has a great git interface, GitLens is an extension which makes it even better allowing you to checkout remote branches and commits and more.
+
+- In the `Extensions` tab, Search `GitLens`.
+
+- Install it and enable it.
+
+- ??
+ 
+- Profit.
 
 - **Workspaces Good.**
 
