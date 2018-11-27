@@ -151,7 +151,9 @@ The `Cobalt 2` theme.
 
 - Open the Extensions tab using either the big column on the left or pressing `Ctrl-Shift-X`.
 
-- Search for `Cobalt 2` in the 
+- Search for `Cobalt 2` in the search bar and install it.
+
+- Enable the theme, Press `Ctrl-Shift-P` to open the command omnibox, search `Theme`, select it, and select your choice of theme (or Cobalt 2) from the list of themes.
 
 - **Workspaces Good.**
 
