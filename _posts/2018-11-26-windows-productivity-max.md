@@ -75,7 +75,7 @@ It will feel like the perfect system, you can even run graphical apps using an X
 
 - **Better Command Line and terminals with Cmder!**
 
-Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
+Everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
 
@@ -93,8 +93,27 @@ There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tri
 
 <img src='https://i.imgur.com/ZeHFXwq.png' width='80%' alt='Good Cmder.'>
 
-
 - **Setup Terminals and Shortcuts in Cmder**
+These are some shortcuts I have setup which help me go around Cmder faster.
+
+- Open Cmder
+
+- Open the settings either from the bottom right hamburger or by press `Win-Alt-P`
+
+- Select `Startup->Tasks`.
+<img src='https://i.imgur.com/Kc6H0sI.png' width='80%' alt='Cmder bby'>
+
+- Order the terminals (to your liking or as i have set them up),
+	- Bash
+    - Cmd prompt as Admin
+    - Powershell as Admin
+- Select each item in the list and change the hotkeys (to your liking or what i prefer)
+	- Bash := `Ctrl-Alt-B`
+    - Cmd := `Ctrl-Alt-C`
+    - Powershell := `Ctrl-Alt-V`
+ (Other smooth combinations could be `Ctrl-Shift-1/2/3, or `Ctrl-1/2/3`)
+ 
+ - 
 
 - **The Text Editor: Visual Studio Code, my opinion**
 
