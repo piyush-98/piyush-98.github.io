@@ -59,7 +59,15 @@ The taskbar is uuuge, by default. Change this to smaller taskbar buttons and enj
 
 - **Get bash back.**
 
-Install the magical Windows Subsytem for Linux on your Windows 10 machine right now! Get most of what a Linux distribution can do right on your windows system.
+Install the magical Windows Subsytem for Linux on your Windows 10 machine right now! Get most of what a Linux distribution can do right on your Windows machine without a heavy VM.
+
+- Go to the Microsoft Store. (Search `Store` in the Searhc bar)
+
+- Search for `WSL` to get all your option of OS'es listed, which include vanilla Debian, Kali Linux and Ubuntu. yep, the famous kali lincox right on windows.
+
+- Install any of them and follow the simple process to setup your user on it. With the included terminal you can access the beautiful subsystem, but its meh, really. 
+
+<img src='https://i.imgur.com/4U68KvT.png' width='80%' alt='lincoxes, lincoxes everywhere'>
 
 - **Better Command Line and terminals with Cmder!**
 
