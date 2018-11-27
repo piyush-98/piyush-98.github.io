@@ -93,6 +93,8 @@ There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tri
 
 <img src='https://i.imgur.com/ZeHFXwq.png' width='80%' alt='Good Cmder.'>
 
+You can also minimize/maximize your active Cmder Windows Quake/Guake style using `Ctrl-~`.
+
 - **Setup Terminals and Shortcuts in Cmder**
 These are some shortcuts I have setup which help me go around Cmder faster.
 
@@ -142,8 +144,14 @@ just my choice of text editor, please don't kill me.
 
 Visual Studio Code is a beautiful text editor, Powered by JalebiScript, its not the fastest editor around but it gets my work done. It has tons of extensions, themes, customizable shortcuts, debugging features. You can even program your Arduino's right out of Visual Studio Code.
 
+- Download Visual Studio Code and install it from here [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
 **Theme of Choice**
-- I use the 
+The `Cobalt 2` theme.
+
+- Open the Extensions tab using either the big column on the left or pressing `Ctrl-Shift-X`.
+
+- Search for `Cobalt 2` in the 
 
 
 - **Workspaces Good.**
