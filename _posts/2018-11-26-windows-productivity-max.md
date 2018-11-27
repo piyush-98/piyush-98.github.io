@@ -142,7 +142,7 @@ With this setup you can use splitted Powershells, Cmd prompts, WSL Shells, all t
 
 just my choice of text editor, please don't kill me.
 
-Visual Studio Code is a beautiful text editor, Powered by JalebiScript, its not the fastest editor around but it gets my work done. It has tons of extensions, themes, customizable shortcuts, debugging features. You can even program your Arduino's right out of Visual Studio Code.
+Visual Studio Code is a beautiful text editor, Powered by JalebiScript, its not the fastest editor around but it gets my work done. It has tons of extensions, themes, customizable shortcuts, portable configs, debugging features. You can even program your Arduino's right out of Visual Studio Code.
 
 - Download Visual Studio Code and install it from here [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
@@ -158,7 +158,7 @@ The `Cobalt 2` theme.
 - Enable the theme, Press `Ctrl-Shift-P` to open the command omnibox, search `Theme`, select it, and select your choice of theme (or Cobalt 2) from the list of themes.
 
 **Gitlens**
-VSCode already has a great git interface, GitLens is an extension which makes it even better allowing you to checkout remote branches and commits and more.
+VSCode already has a great git interface, GitLens is an extension which makes it even better allowing you to checkout remote branches and commits, git blame, and more.
 
 - In the `Extensions` tab, Search `GitLens`.
 
@@ -168,10 +168,31 @@ VSCode already has a great git interface, GitLens is an extension which makes it
  
 - Profit.
 
+PS. Add `.vscode` to your `.gitignore` to prevent your folder config moving to your git repo.
+
+Hope you end up writing beautiful code and tests for them in this shiny editor this Christams. 
+
 - **Workspaces Good.**
 
+Windows 10 has workspaces or virtual desktops, not 2x2 workspaces, but linear workspaces, with all the software you have installed and keep open, workspaces will help unclutter it up ^_^.
+
+- `Win+Tab` opens up the workspaces menu.
+
+- There is a single workspace, by default. Extend it by clicking on the Big Plus button.
+
+- I prefer 4 Workspaces, these added desktops are preserved over sessions, +1.
+
+- If you have a Windows Precision Touchpad, which many new laptops do, you can use the default 4 finger left/right swipe to move between workspaces (similar to how Mac does it). or configure the gestures from the system settings.
+
+- To move between workspaces using the keyboard:
+	- `Win+Ctrl+Right` and `Win+Ctrl+Left`
 
 ## What's missing?
 
 - KDE Connect
-Who doesnt' love KDE Connect.
+
+:( its just so good. I am yet to find something similar on windows. I use google drive for transferring small files on windows, on linux, it could be just shared over KDE Connect.
+
+- Can't move windows between workspaces using keyboard shortcuts
+
+You have to drag and drop the specific windows using the mouse/touchpad from the workspaces menu.
