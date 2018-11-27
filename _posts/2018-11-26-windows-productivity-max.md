@@ -119,8 +119,18 @@ These are some shortcuts I have setup which help me go around Cmder faster.
  
  - Select `Keys And Macros` in the `Settings` Window.
  
- -  
+ -  Search `Terminate` in the Search bar, select `Terminate (kill) all but shell processes in the current console: Close(10,1)`
+ 
+ - Change the hotkey (to your liking or what I prefer)
+ 	- Terminate Window := `Win-Shift-Delete`
+    
+**Splitting Panes**
 
+- Search `Split: duplicate` in the `Keys and Macros` search bar.
+- Set the hotkey for bottom and right splits (to your liking or what I prefer).
+	- Down Split := `Ctrl-Shift-D' (for this you'll have to clear the existing shortcut for it)
+    - Right Split := `Ctrl-Shift-R`
+    
 - **The Text Editor: Visual Studio Code, my opinion**
 
 - **Workspaces Good.**
