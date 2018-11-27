@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Aarush Ahuja"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/17064824.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "amateur code writer and string fiddler"
   location         : "New Delhi, India"
   email            : "ahujaarush@gmail.com"
