@@ -11,7 +11,7 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 
 - Windows 10 Home came preinstalled on my laptop (Dell 7567).
 - I like using Windows 10 (not as much as the KDE setup, though).
-- My HDMI Monitor work without problems.
+- My HDMI Monitor works without problems.
 - My NVIDIA GPU works, both for PyTorch and Gaming.
 - good battery life, though, using bumblebee on linux makes battery life just as good, if not better, on linux too.
 
@@ -20,6 +20,8 @@ But, When I am not doing shenanigans on my Arch (AntergOS) with KDE setup (which
 I use Windows 10 Home Edition, which came preinstalled on my Dell 7567 dual booting with AntergOS runnning KDE Plasma 5. A Monitor (Dell S2240L) connected to my laptop and keep it on power most of the time, which imo I should stop doing and make sure its getting proper charge and discharge cycles. Connecting it to an external keyboard and mouse essentially makes it a `Dual Monitor Gaming PC B|` setup. Instead of having my Laptop's screen as the primary monitor, switching to the bigger 21inch monitor as the primary screen makes it very useful, for both working and playing games.
 
 <img src='https://i.imgur.com/aQGGbBW.jpg' width='80%' alt='my precious'>
+
+My setup on a random night.
 
 ### Improve Windows!
 
@@ -69,11 +71,15 @@ Install the magical Windows Subsytem for Linux on your Windows 10 machine right 
 
 <img src='https://i.imgur.com/4U68KvT.png' width='80%' alt='lincoxes, lincoxes everywhere'>
 
+It will feel like the perfect system, you can even run graphical apps using an XServer, it is still limited, but for running most command line tools, it works great.
+
 - **Better Command Line and terminals with Cmder!**
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
 <img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
+
+- **The Text Editor: Visual Studio Code, my opinion**
 
 - **Workspaces Good.**
 
