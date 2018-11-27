@@ -182,7 +182,7 @@ Windows 10 has workspaces or virtual desktops, not 2x2 workspaces, but linear wo
 
 - I prefer 4 Workspaces, these added desktops are preserved over sessions, +1.
 
-- If you have a Windows Precision Touchpad, which many new laptops do, you can use the default 4 finger left/right swipe to move between workspaces (similar to how Mac does it). or configure the gestures from the system settings.
+- If you have a Windows Precision Touchpad, which most new laptops do, you can use the default 4 finger left/right swipe to move between workspaces (similar to how Mac does it). or configure the gestures from the system settings.
 
 - To move between workspaces using the keyboard:
 	- `Win+Ctrl+Right` and `Win+Ctrl+Left`
