@@ -59,6 +59,8 @@ The taskbar is uuuge, by default. Change this to smaller taskbar buttons and enj
 
 - **Get bash back.**
 
+Install the magical Windows Subsytem for Linux on your Windows 10 machine right now! Get most of what a Linux distribution can do right on your windows system.
+
 - **Better Command Line and terminals with Cmder!**
 
 Yes, everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
