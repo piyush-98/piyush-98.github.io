@@ -1,6 +1,10 @@
 ---
 published: false
 title: Making Windows 10 Usable.
+published: true
+date: 2018-11-27T00:00:00.000Z 
+categories: setup
+tags: windows cmder setup system vscode productivity
 ---
 ## Setup Windows 10 for Productivity Maxx.
 
