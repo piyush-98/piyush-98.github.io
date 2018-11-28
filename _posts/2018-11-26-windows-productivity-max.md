@@ -81,7 +81,7 @@ It will feel like the perfect system, you can even run GUI apps using an XServer
 
 Everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-<img src='https:/i.imgur.com/2CEXSY1.jpg' width='80%' alt='All The Shells are Mine.'>
+<img src='https://i.imgur.com/ZPbprPZ.png' width='80%' alt='All The Shells are Mine.'>
 
 There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tried.
 
