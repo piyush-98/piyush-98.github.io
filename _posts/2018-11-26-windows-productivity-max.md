@@ -75,13 +75,13 @@ Install the magical Windows Subsytem for Linux on your Windows 10 machine right 
 
 <img src='https://i.imgur.com/4U68KvT.png' width='80%' alt='lincoxes, lincoxes everywhere'>
 
-It will feel like the perfect system, you can even run graphical apps using an XServer, it is still limited, but for running most command line tools, it works great.
+It will feel like the perfect system, you can even run GUI apps using an XServer, it is still limited, but for running most command line tools, it works great.
 
 - **Better Command Line and terminals with Cmder!**
 
 Everyone loves their terminals, but using the default CMD prompt, Powershell or even the WSL Shell on Windows, is, _unpleasant_.
 
-<img src='https:/i.imgur.com/2CEXSY1.png' width='80%' alt='All The Shells are Mine.'>
+<img src='https:/i.imgur.com/2CEXSY1.jpg' width='80%' alt='All The Shells are Mine.'>
 
 There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tried.
 
