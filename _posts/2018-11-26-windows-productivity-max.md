@@ -67,7 +67,7 @@ The taskbar is uuuge, by default. Change this to smaller taskbar buttons and enj
 
 Install the magical Windows Subsytem for Linux on your Windows 10 machine right now! Get most of what a Linux distribution can do right on your Windows machine without a heavy VM.
 
-- Go to the Microsoft Store. (Search `Store` in the Searhc bar)
+- Go to the Microsoft Store. (Search `Store` in the Search bar)
 
 - Search for `WSL` to get all your option of OS'es listed, which include vanilla Debian, Kali Linux and Ubuntu. yep, the famous kali lincox right on windows.
 
@@ -100,6 +100,7 @@ There exists many terminal apps on Windows, Hyper, ConEmu, Cmder, are some I tri
 You can also minimize/maximize your active Cmder Windows Quake/Guake style using `Ctrl-~`.
 
 - **Setup Terminals and Shortcuts in Cmder**
+
 These are some shortcuts I have setup which help me go around Cmder faster.
 
 **Terminals**
@@ -131,6 +132,7 @@ These are some shortcuts I have setup which help me go around Cmder faster.
  	- Terminate Window := `Win-Shift-Delete`
     
 **Splitting Panes**
+
 This duplicates the current terminal into either a right split or a bottom split. Super useful, use it on linux all the time.
 
 - Search `Split: duplicate` in the `Keys and Macros` search bar.
