@@ -6,9 +6,3 @@ tags: An AI model which predict the genuinity of a Signature
 categories: project
 future: true
 ---
-agduiagd
-a;ca
-nlancancalkncalncakln
-,lksfopsko
-,;lsfkp
-]lmplsfwsflpwsfs,csfk sjcsnvwsnfw
