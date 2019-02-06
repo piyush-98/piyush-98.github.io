@@ -1,7 +1,11 @@
 ---
 published: true
 title: Signature Recognition
-date: 2019-02-05T00:00:00.000Z
+date: 2018-08-02T00:00:00.000Z
 categories: project
 tags: machinelearning pytorch cuda windows project reversee javascript python flask
 ---
+
+ojojfco
+mmof
+okpk
