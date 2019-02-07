@@ -22,7 +22,9 @@ a machine can learn making decisions , I have been working in this field for a w
 In organisations like banks , they basically have the database of every customer hence i made my model accordingly .
 So let's dive into the techincalities now .
 ### Dataset ---
-I used various Online datasets available for the model . The idea was to having number of samples of every of person/customer including genuine as well as frorged signatures to make a person dependent system.
+I used various Online datasets available for the model . The idea was to having number of samples of every of person/customer including genuine as well as frorged signatures to make a `person dependent system`.
 luckily i found various online datasets of the same manner online.I used dutch as well as english signatures so as to increase the dataset .
+
+![](C:\Users\PIYUSH\Desktop\gem.png)
 
 ### Preprocessing --
