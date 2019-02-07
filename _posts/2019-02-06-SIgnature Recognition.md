@@ -25,6 +25,6 @@ So let's dive into the techincalities now .
 I used various Online datasets available for the model . The idea was to having number of samples of every of person/customer including genuine as well as frorged signatures to make a `person dependent system`.
 luckily i found various online datasets of the same manner online.I used dutch as well as english signatures so as to increase the dataset .
 
-![](C:\Users\PIYUSH\Desktop\gem.png)
+<img src='https://imgur.com/a/AX2WdmH' width='25%' alt='genuine'>
 
 ### Preprocessing --
