@@ -2,7 +2,7 @@
 published: true
 title: Signature Recognition
 date: 2019-02-06T00:00:00.000Z
-tags: An AI model which predict the genuinity of a Signature
+tags: AI model predict genuinity Signature
 categories: project
 future: true
 ---
@@ -25,6 +25,6 @@ So let's dive into the techincalities now .
 I used various Online datasets available for the model . The idea was to having number of samples of every of person/customer including genuine as well as frorged signatures to make a `person dependent system`.
 luckily i found various online datasets of the same manner online.I used dutch as well as english signatures so as to increase the dataset .
 
-![genuine](https://github.com/piyush-98/piyush-98.github.io/blob/master/photos/gen.png)
+![](https://github.com/piyush-98/piyush-98.github.io/blob/master/photos/gen.png)
 
 ### Preprocessing --
