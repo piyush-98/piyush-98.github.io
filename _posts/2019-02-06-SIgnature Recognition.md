@@ -26,5 +26,6 @@ I used various Online datasets available for the model . The idea was to having 
 luckily i found various online datasets of the same manner online.I used dutch as well as english signatures so as to increase the dataset
 
 <img src="https://i.imgur.com/OUDPlgG.png" alt="drawing" width="200"/>
+<img src="https://i.imgur.com/S6c5Uei.png" alt="drawing" width="200"/>
 
 ### Preprocessing --
