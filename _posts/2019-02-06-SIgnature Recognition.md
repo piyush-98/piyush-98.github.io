@@ -30,5 +30,8 @@ luckily i found various online datasets of the same manner online.I used dutch a
 <img src="https://i.imgur.com/OUDPlgG.png" alt="drawing" width="200"/><img src="https://i.imgur.com/S6c5Uei.png" alt="drawing" width="200"/>
 
 The **Right** image is the **genuine** signature and the **left** one is the **forged** one.
-first problem was to remove the effects of different inks from the image as it can be of any form hence for that i applied thinning to the image by using morphological functions of sklearn.
+first problem was to remove the effects of different inks from the image as it can be of any form.
+hence for that i applied thinning to the image by using morphological functions of sklearn.
+
+here is the iamge after it.
 <img src="https://i.imgur.com/JV5KaV9.png" alt="drawing" width="200"/>
