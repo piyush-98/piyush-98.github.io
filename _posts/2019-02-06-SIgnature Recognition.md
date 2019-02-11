@@ -44,7 +44,11 @@ Image Preprocessing is one of the important task in deep learning specially in a
 Recognition where small variations can truely affect the model.
 
 ### Features Extraction
-As this task is not just recognizing dogs or cats or any other classification task , I had to extract some hand picked features from the image , here i took help form some research papers i read beforehand.
+As this task is not just recognizing dogs or cats or any other classification task , I had to extract
+some hand picked features from the image , here i took help form some research papers i read
+beforehand.
+
+
 | Tables        |
 | ------------- |
 | col 3 is      |
