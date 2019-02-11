@@ -35,4 +35,7 @@ hence for that i applied thinning to the image by using morphological functions 
 
 <img src="https://i.imgur.com/JV5KaV9.png" alt="drawing" width="200"/>
 
-        here is the image after thinning it .
+`here is the image after thinning it` .
+
+The image was also converted to grayscale from RGB and was also normalized to negate factors which could affect the model.
+Image Preprocessing is one of the important task in deep learning specially in a task like signature Recognition where small variations can truely affect the model.
