@@ -33,5 +33,4 @@ The **Right** image is the **genuine** signature and the **left** one is the **f
 first problem was to remove the effects of different inks from the image as it can be of any form.
 hence for that i applied thinning to the image by using morphological functions of sklearn.
 
-here is the iamge after it.
 <img src="https://i.imgur.com/JV5KaV9.png" alt="drawing" width="200"/>
