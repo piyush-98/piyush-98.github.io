@@ -30,12 +30,23 @@ luckily i found various online datasets of the same manner online.I used dutch a
 <img src="https://i.imgur.com/OUDPlgG.png" alt="drawing" width="200"/><img src="https://i.imgur.com/S6c5Uei.png" alt="drawing" width="200"/>
 
 The **Right** image is the *genuine* signature and the **left** one is the *forged* one.
+
 first problem was to remove the effects of different inks from the image as it can be of any form.
-hence for that i applied thinning to the image by using morphological functions of sklearn.
+hence for that i applied *thinning* to the image by using `morphological functions of sklearn`.
 
 <img src="https://i.imgur.com/JV5KaV9.png" alt="drawing" width="200"/>
 
 `here is the image after thinning it` .
 
-The image was also converted to grayscale from RGB and was also normalized to negate factors which could affect the model.
-Image Preprocessing is one of the important task in deep learning specially in a task like signature Recognition where small variations can truely affect the model.
+The image was also converted to *grayscale* from RGB and was also *normalized* to negate factors which
+could affect the model.
+Image Preprocessing is one of the important task in deep learning specially in a task like signature
+Recognition where small variations can truely affect the model.
+
+### Features Extraction
+As this task is not just recognizing dogs or cats or any other classification task , I had to extract some hand picked features from the image , here i took help form some research papers i read beforehand.
+| Tables        |
+| ------------- |
+| col 3 is      |
+| col 2 is      |
+| zebra stripes |
