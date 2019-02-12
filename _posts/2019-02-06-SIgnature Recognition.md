@@ -39,7 +39,7 @@ hence for that i applied *thinning* to the image by using `morphological functio
 `here is the image after thinning it` .
 
 The image was also converted to *grayscale* from RGB and was also *normalized* to negate factors which
-could affect the model.
+could affect the model, every image was also resized to same size i.e [50,100].
 Image Preprocessing is one of the important task in deep learning specially in a task like signature
 Recognition where small variations can truely affect the model.
 
@@ -48,9 +48,16 @@ As this task is not just recognizing dogs or cats or any other classification ta
 some hand picked features from the image , here i took help form some research papers i read
 beforehand.
 
+### Density of the signature
+The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
 
-| Tables        |
-| ------------- |
-| col 3 is      |
-| col 2 is      |
-| zebra stripes |
+### Compute the number of spatial symbols within the signature Image.
+Every person in their signature uses some spatial symbols, such as they uses some ‘x’ marks (cross marks), star marks or
+other symbols. The total number of spatial symbols of a person’s signature is unique. For calculating the total number of spatial symbols in a signature image we have to preprocess the image upto thinning. Then If we find that one pixel having
+more than two neighbors each of which get the values 1 then those pixels will form a Spatial symbol
+
+### Height/width ratio of the signature
+I read in a research paper that a person's signature's height is to width ratio always remains the same , hence
+i computed this feature again open cv helped a lot i had to make Contours to basically make a bounding rectangle around the signature.
+
+### Kurtosis
