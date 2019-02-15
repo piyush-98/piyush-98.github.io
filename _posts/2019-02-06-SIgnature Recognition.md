@@ -63,5 +63,10 @@ Feature such as **skewness** , **kurtosis** and **standard deviation** were also
 statistical relevance in image processing . I won't go into much details for them , [but here is some information](https://dsp.stackexchange.com/questions/30435/what-do-skewness-and-kurtosis-represent) regarding this .
 
 ### Architecture
->The features which i am using are kinda specific to a person that is , they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general
-hence i ended up with two models.
+The features which i am using are kinda specific to a person that is , they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general
+hence i ended up with *two models*.
+#### First Model
+This Model is a Convolution neural network , its task is to classify the sample signature into its true class , here all the people (customers in case of banks) are treated as different classes the
+CNNs task is to identify the class of the signature regardless of it being genuine or forged . for example a bank has 2000 customers then there will be 2000 classes.
+#### Second Model
+After the class of the Signature is classified we trained another network which'd use the handpicked features to predict the desired output ,this classifier was trained only on the data of
