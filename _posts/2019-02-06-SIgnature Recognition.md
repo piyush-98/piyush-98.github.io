@@ -10,14 +10,12 @@ future: true
 The post is written about an AI model which can predict the forgery and  genuineness of a Signature sample . <br>
 
 ## Problem Statement
-In organizations like banks where the Authenticity of the signature of a person is very important , there still doesn't exist any autonomous system which can predict frorgery of a signature .
+In organizations like banks where the Authenticity of the signature of a person is very important , there still doesn't exist any autonomous system which can predict forgery of a signature .
 
 Artificial Intelligence is the field of computer science that emphasizes on creating intelligent systems and through which
 a machine can learn making decisions , I have been working in this field for a while ,so i decided to solve this problem with the help of some knowledge that i have been able gain in past few years.
 
 ## The Idea
-
-
 
 In organizations like banks , they basically have the database of every customer hence i made my model accordingly .
 So let's dive into the technicalities now .
@@ -48,16 +46,21 @@ As this task is not just recognizing dogs or cats or any other classification ta
 some hand picked features from the image , here i took help form some research papers i read
 beforehand.
 
-### Density of the signature
+#### Density of the signature
 The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
 
-### Compute the number of spatial symbols within the signature Image.
+#### Compute the number of spatial symbols within the signature Image.
 Every person in their signature uses some spatial symbols, such as they uses some ‘x’ marks (cross marks), star marks or
-other symbols. The total number of spatial symbols of a person’s signature is unique. For calculating the total number of spatial symbols in a signature image we have to preprocess the image upto thinning. Then If we find that one pixel having
+other symbols. The total number of spatial symbols of a person’s signature is unique. For calculating the total number of spatial symbols in a signature image we have to preprocess the image up to thinning. Then If we find that one pixel having
 more than two neighbors each of which get the values 1 then those pixels will form a Spatial symbol
 
-### Height/width ratio of the signature
-I read in a research paper that a person's signature's height is to width ratio always remains the same , hence
+#### Height/width ratio of the signature
+I read in a research paper that a person signature's height is to width ratio always remains the same , hence
 i computed this feature again open cv helped a lot i had to make Contours to basically make a bounding rectangle around the signature.
 
-### Kurtosis
+#### Other Features
+Feature such as skewness , kurtosis and standard deviation were also used which have a great
+statistical relevance in image processing . I won't go into much details for them ,[but here is some information](https://dsp.stackexchange.com/questions/30435/what-do-skewness-and-kurtosis-represent)regarding this .
+
+### Architecture
+The features which i am using are kinda specific to a person that is , they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general hence i ended up with two models.
