@@ -39,7 +39,7 @@ hence for that i applied *thinning* to the image by using `morphological functio
 The image was also converted to *grayscale* from RGB and was also *normalized* to negate factors which
 could affect the model, every image was also resized to same size i.e [50,100].
 Image Preprocessing is one of the important task in deep learning specially in a task like signature
-Recognition where small variations can truely affect the model.
+Recognition where small variations can truly affect the model.
 
 ### Features Extraction
 As this task is not just recognizing dogs or cats or any other classification task , I had to extract
@@ -59,8 +59,9 @@ I read in a research paper that a person signature's height is to width ratio al
 i computed this feature again open cv helped a lot i had to make Contours to basically make a bounding rectangle around the signature.
 
 #### Other Features
-Feature such as skewness , kurtosis and standard deviation were also used which have a great
-statistical relevance in image processing . I won't go into much details for them ,[but here is some information](https://dsp.stackexchange.com/questions/30435/what-do-skewness-and-kurtosis-represent)regarding this .
+Feature such as **skewness** , **kurtosis** and **standard deviation** were also used which have a great
+statistical relevance in image processing . I won't go into much details for them , [but here is some information](https://dsp.stackexchange.com/questions/30435/what-do-skewness-and-kurtosis-represent) regarding this .
 
 ### Architecture
-The features which i am using are kinda specific to a person that is , they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general hence i ended up with two models.
+>The features which i am using are kinda specific to a person that is , they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general
+hence i ended up with two models.
