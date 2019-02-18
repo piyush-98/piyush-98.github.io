@@ -69,4 +69,4 @@ hence i ended up with *two models*.
 This Model is a Convolution neural network , its task is to classify the sample signature into its true class , here all the people (customers in case of banks) are treated as different classes the
 CNNs task is to identify the class of the signature regardless of it being genuine or forged . for example a bank has 2000 customers then there will be 2000 classes.
 #### Second Model
-After the class of the Signature is classified we trained another network which'd use the handpicked features to predict the desired output ,this classifier was trained only on the data of
+After the class of the Signature is classified we trained another network which'd use the handpicked features to predict the desired output by using **KNN classifier** ,this classifier was trained only on the data of the particular person(or the class which was classified by first model).For this i made number of data frames that is if there are 100 customers then 100 data frames each containing genuine as well forged samples of that particular person.
