@@ -43,8 +43,7 @@ Recognition where small variations can truly affect the model.
 
 ### Features Extraction
 As this task is not just recognizing dogs or cats or any other classification task , I had to extract
-some hand picked features from the image , here i took help form some research papers i read
-beforehand.
+some hand picked features from the image , here i took help form some research papers i read beforehand.
 
 #### Density of the signature
 The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
