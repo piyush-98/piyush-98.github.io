@@ -39,7 +39,8 @@ hence for that i applied *thinning* to the image by using `morphological functio
 The image was also converted to *grayscale* from RGB and was also *normalized* and *smoothed* to negate factors which
 could affect the model, every image was also resized to same size i.e `[50,100]`.
 
-<img src="https://i.imgur.com/83rPybZ.png" alt="drawing" width="200"/> <img src="https://i.imgur.com/dgDUceB.png" alt="drawing"/ width="200"/>
+<img src="https://i.imgur.com/83rPybZ.png" alt="drawing" width="500"/> <img src="https://i.imgur.com/dgDUceB.png" alt="drawing" width="500"/>
+
 `left is the grayscaled image and right is the smoothed image`
 
 Image Preprocessing is one of the important task in deep learning specially in a task like signature
