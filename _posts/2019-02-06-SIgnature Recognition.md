@@ -32,12 +32,15 @@ The **Right** image is the *genuine* signature and the **left** one is the *forg
 first problem was to remove the effects of different inks from the image as it can be of any form.
 hence for that i applied *thinning* to the image by using `morphological functions of sklearn`.
 
-<img src="https://i.imgur.com/JV5KaV9.png" alt="drawing" width="200"/>
+<img src="https://i.imgur.com/uvPZP8T.png" alt="drawing"/>
 
 `here is the image after thinning it` .
 
-The image was also converted to *grayscale* from RGB and was also *normalized* to negate factors which
+The image was also converted to *grayscale* from RGB and was also *normalized* and *smoothed* to negate factors which
 could affect the model, every image was also resized to same size i.e [50,100].
+
+<img src="https://i.imgur.com/83rPybZ.png" alt="drawing"/>    <img src="https://i.imgur.com/dgDUceB.png" alt="drawing"/>
+
 Image Preprocessing is one of the important task in deep learning specially in a task like signature
 Recognition where small variations can truly affect the model.
 
@@ -63,6 +66,8 @@ more than two neighbors each of which get the values 1 then those pixels will fo
 #### Height/width ratio of the signature
 I read in a research paper that a person signature's height is to width ratio always remains the same , hence
 i computed this feature again open cv helped a lot i had to make Contours to basically make a bounding rectangle around the signature.
+
+<img src="https://i.imgur.com/OTlwmBc.png" alt="drawing"/> <br>
 
 #### Other Features
 Feature such as **skewness** , **kurtosis** and **standard deviation** were also used which have a great
