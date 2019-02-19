@@ -50,10 +50,13 @@ beforehand.
 The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
 
 #### Compute the number of spatial symbols within the signature Image.
-<img src="https://i.imgur.com/sLraabm.png" alt="drawing" width="200"/> <br>
+
 
 Every person in their signature uses some spatial symbols, such as they uses some ‘x’ marks (cross marks), star marks or
-other symbols. The total number of spatial symbols of a person’s signature is unique. For calculating the total number of spatial symbols in a signature image we have to preprocess the image up to thinning. Then If we find that one pixel having
+other symbols. The total number of spatial symbols of a person’s signature is unique.
+<img src="https://i.imgur.com/sLraabm.png" alt="drawing"/> <br>
+
+For calculating the total number of spatial symbols in a signature image we have to preprocess the image up to thinning. Then If we find that one pixel having
 more than two neighbors each of which get the values 1 then those pixels will form a Spatial symbol <br>
 
 #### Height/width ratio of the signature
