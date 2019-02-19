@@ -37,9 +37,10 @@ hence for that i applied *thinning* to the image by using `morphological functio
 `here is the image after thinning it` .
 
 The image was also converted to *grayscale* from RGB and was also *normalized* and *smoothed* to negate factors which
-could affect the model, every image was also resized to same size i.e [50,100].
+could affect the model, every image was also resized to same size i.e `[50,100]`.
 
-<img src="https://i.imgur.com/83rPybZ.png" alt="drawing"/>    <img src="https://i.imgur.com/dgDUceB.png" alt="drawing"/>
+<img src="https://i.imgur.com/83rPybZ.png" alt="drawing" width="200"//><img src="https://i.imgur.com/dgDUceB.png" alt="drawing"/ width="200"/>
+`left is the grayscaled image and right is the smoothed image`
 
 Image Preprocessing is one of the important task in deep learning specially in a task like signature
 Recognition where small variations can truly affect the model.
@@ -50,7 +51,9 @@ some hand picked features from the image , here i took help form some research p
 
 #### Density of the signature
 The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
+<img src="https://i.imgur.com/Zf5xkA7.png" alt="drawing" width="200"/>
 
+`here is the binary image through which the ratio was calculated`
 #### Compute the number of spatial symbols within the signature Image.
 
 
