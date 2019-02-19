@@ -87,5 +87,6 @@ CNNs task is to identify the class of the signature regardless of it being genui
 After the class of the Signature is classified we trained another network which'd use the handpicked features to predict the desired output by using **KNN classifier** ,this classifier was trained only on the data of the particular person(or the class which was classified by first model).For this i made number of data frames that is if there are 100 customers then 100 data frames each containing genuine as well forged samples of that particular person.
 
 ### Conclusion
-The network gave about an accuracy of 85 % on the test set , which is quite considerable i guess , this whole work was done for an online competition though i didn't get through but it gave a lot of experience and i hereby
-apologize for all the spelling mistakes and gramatical errors i did through out this blog , thanks for bearing.
+[follow this link for the github repo of the project](https://github.com/piyush-98/Signature_Recogntion)<br>
+
+The network gave about an accuracy of 85 % on the test set , which is quite considerable i guess , this whole work was done for an online competition though i didn't get through but it gave a lot of experience and i hereby apologize for all the spelling mistakes and gramatical errors i did through out this blog , thanks for bearing.
