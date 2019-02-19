@@ -50,9 +50,11 @@ beforehand.
 The Features tells us the ratio of number of pixels of the signature to the total number of image pixels, for this the image was binary segmented by open cv after converting it to grayscale.
 
 #### Compute the number of spatial symbols within the signature Image.
+<img src="https://i.imgur.com/sLraabm.png" alt="drawing" width="200"/> <br>
+
 Every person in their signature uses some spatial symbols, such as they uses some ‘x’ marks (cross marks), star marks or
 other symbols. The total number of spatial symbols of a person’s signature is unique. For calculating the total number of spatial symbols in a signature image we have to preprocess the image up to thinning. Then If we find that one pixel having
-more than two neighbors each of which get the values 1 then those pixels will form a Spatial symbol
+more than two neighbors each of which get the values 1 then those pixels will form a Spatial symbol <br>
 
 #### Height/width ratio of the signature
 I read in a research paper that a person signature's height is to width ratio always remains the same , hence
@@ -74,4 +76,3 @@ After the class of the Signature is classified we trained another network which'
 ### Conclusion
 The network gave about an accuracy of 85 % on the test set , which is quite considerable i guess , this whole work was done for an online competition though i didn't get through but it gave a lot of experience and i hereby
 apologize for all the spelling mistakes and gramatical errors i did through out this blog , thanks for bearing.
-  
