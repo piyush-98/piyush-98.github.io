@@ -53,6 +53,8 @@ The Features tells us the ratio of number of pixels of the signature to the tota
 
 Every person in their signature uses some spatial symbols, such as they uses some ‘x’ marks (cross marks), star marks or
 other symbols. The total number of spatial symbols of a person’s signature is unique.
+
+
 <img src="https://i.imgur.com/sLraabm.png" alt="drawing"/> <br>
 
 For calculating the total number of spatial symbols in a signature image we have to preprocess the image up to thinning. Then If we find that one pixel having
