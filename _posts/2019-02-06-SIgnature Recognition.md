@@ -2,7 +2,7 @@
 published: true
 title: Signature Recognition
 date: 2019-02-06T00:00:00.000Z
-tags: AI model predict genuine forged Signature
+tags: AI predict CNN KNN genuine forged Signature
 categories: project
 future: true
 ---
