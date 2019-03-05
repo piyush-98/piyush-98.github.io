@@ -21,7 +21,7 @@ In organizations like banks, they basically have the database of every customer 
 So let's dive into the technicalities now.
 ### Dataset ---
 I used various Online datasets available for the model. The idea was to have a number of samples of every person/customer including genuine as well as forged signatures to make a `person dependent system`.
-luckily I found various online datasets of the same manner online. I used Dutch as well as English signatures so as to increase the dataset
+Luckily I found various online datasets of the same manner online. I used Dutch as well as English signatures so as to increase the dataset
 
 
 ### Preprocessing --
@@ -81,10 +81,10 @@ statistical relevance in image processing. I won't go into much details for them
 The features which I am using are kinda specific to a person that is, they could identify the forgery of a specific person on compared to his/her genuine signature but they couldn't do this job in general
 hence I ended up with *two models*.
 #### First Model
-This Model is a *Convolution neural network* , it's task is to classify the sample signature into its true class, here all the people (customers in case of banks) are treated as different classes the CNN's task is to identify the class of the signature regardless of it being genuine or forged . For example a bank has 2000 customers then there will be 2000 classes. In simple words CNNs task is to identify the person to which the signature belongs regardless of it being genuine or forged.
+This Model is a *Convolution neural network* , it's task is to classify the sample signature into its true class, here all the people (customers in case of banks) are treated as different classes, the CNN's task is to identify the class of the signature regardless of it being genuine or forged . For example, a bank has 2000 customers then there will be 2000 classes. In simple words CNNs task is to identify the person to which the signature belongs regardless of it being genuine or forged.
 #### Second Model
-After the class of the Signature is classified we trained another network which uses the handpicked features to predict the desired output by using **KNN classifier** , this classifier was trained only on the data of the particular person(or the class which was classified by the first model). For this, I made a number of data frames that is if there are 100 customers then 100 data frames each containing genuine as well forged samples of that particular person.
+After the class of the Signature is classified I trained another network which uses the handpicked features to predict the desired output by using **KNN classifier** , this classifier was trained only on the data of the particular person(or the class which was classified by the first model). For this, I made a number of data frames that is if there are 100 customers then 100 data frames each containing genuine as well forged as samples of that particular person.
 
 ### Conclusion
 [follow this link for the GitHub repo of the project](https://github.com/piyush-98/Signature_Recogntion)<br>
-The network gave about an accuracy of 85 % on the test set, which is quite considerable I guess , this whole work was done for an online competition though I didn't get through but it gave a lot of experience and I hereby apologize for all the spelling mistakes and grammatical errors I did throughout this blog, thanks for bearing.
+The network gave about an accuracy of 85 % on the test set, which is quite considerable I guess. This whole work was done for an online competition though I didn't get through but it gave a lot of experience and I hereby apologize for all the spelling mistakes and grammatical errors I did throughout this blog, thanks for bearing.
