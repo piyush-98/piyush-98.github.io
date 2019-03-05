@@ -13,7 +13,7 @@ The post is written about an AI model which can predict the forgery and genuinen
 In organizations like banks where the Authenticity of the signature of a person is very important, there still doesn't exist any autonomous system which can predict forgery of a signature.
 
 Artificial Intelligence is the field of computer science that emphasizes on creating intelligent systems and through which
-a machine can learn to make decisions, I have been working in this field for a while, so I decided to solve this problem with the help of some knowledge that I have been an able gain in past few years.
+a machine can learn to make decisions, I have been working in this field for a while, so I decided to solve this problem with the help of some knowledge that I have been able to gain in past few years.
 
 ## The Idea
 
